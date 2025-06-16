@@ -16,12 +16,26 @@ Este proyecto muestra una implementación práctica de ADO.NET en C#, junto con 
 ## 🧩 Estructura del proyecto
 
 Ape6/
+
+
 ├── ADONET.sln # Solución principal en Visual Studio
+
+
 ├── ADONET/ # Proyecto C# con lógica ADO.NET
+
+
 │ ├── bin/
+
+
 │ └── obj/
+
+
 ├── index.html # Interfaz web principal
+
+
 ├── script.js # Lógica de interacción de frontend
+
+
 └── estilos.css # Estilos de la interfaz  
 
 

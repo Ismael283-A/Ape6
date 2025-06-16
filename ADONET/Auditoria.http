@@ -1,0 +1,55 @@
+@ADONET_HostAddress = http://localhost:5007
+
+### Obtener todos los productos 
+
+GET {{ADONET_HostAddress}}/api/producto 
+
+Accept: application/json 
+
+  
+
+### Crear producto 
+
+POST {{ADONET_HostAddress}}/api/producto 
+
+Content-Type: application/json 
+
+  
+
+{ 
+
+  "nombreProducto": "Producto de prueba", 
+
+  "precio": 10.5, 
+
+  "stock": 5 
+
+} 
+
+  
+
+### Actualizar producto 
+
+PUT {{ADONET_HostAddress}}/api/producto 
+
+Content-Type: application/json 
+
+  
+
+{ 
+
+  "idProducto": 1, 
+
+  "nombreProducto": "Producto actualizado", 
+
+  "precio": 15.75, 
+
+  "stock": 10 
+
+} 
+
+  
+
+### Eliminar producto 
+
+DELETE {{ADONET_HostAddress}}/api/producto/
